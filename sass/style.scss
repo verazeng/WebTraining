@@ -3,4 +3,36 @@
 
 body {
 	font-size: 62.5%;
+	background-color: #f4f3f1;
+}
+
+.main-container {
+	background-color: #f4f3f1;
+}
+
+.main-page {
+	background-image: url(../images/sunset-resized.jpg);
+	background-size: cover;
+	height: 700px;
+}
+
+.how-it-works {
+	height: 200px;
+	border-bottom-width: 1px;
+	border-color: rgba(128, 128, 128, .3);
+	border-style: solid;
+}
+
+.why-choose-us {
+	height: 200px;
+	border-width: 1px 0 1px 0;
+	border-color: rgb(255,255,255) rgb(255,255,255) rgba(128, 128, 128, .3) rgb(255,255,255);
+	border-style: solid;		
+}
+
+.about-us {
+	height: 200px;
+	border-top-width: 1px;
+	border-color: rgb(255,255,255);
+	border-style: solid;		
 }

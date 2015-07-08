@@ -75,12 +75,12 @@ body {
 .main-page {
   background-image: url(../images/sunset.jpg);
   background-size: cover;
-  height: 800px;
+  height: 750px;
 }
 
 /* line 17, ../sass/style.scss */
 .how-it-works {
-  height: 200px;
+  height: 450px;
   border-bottom-width: 1px;
   border-color: rgba(128, 128, 128, 0.3);
   border-style: solid;
@@ -122,7 +122,7 @@ body {
 
 /* line 54, ../sass/style.scss */
 #sign-up {
-  border-radius: 0px;
+  border-radius: 3px;
   border: solid white 1px;
   padding: 5px 15px;
   font-size: 16px;
@@ -181,10 +181,55 @@ body {
 /* line 102, ../sass/style.scss */
 .search-button {
   float: right;
-  background: #6cdcac;
+  background: #6bdbab;
   border-radius: 0 4px 4px 0;
   border: none;
   padding: 20px 20px;
   color: white;
   font-size: 16px;
+}
+
+/* line 112, ../sass/style.scss */
+.seperator {
+  width: 40px;
+  height: 3px;
+  background-color: rgba(220, 220, 220, 0.5);
+  margin: 10px auto 35px auto;
+}
+
+/* line 119, ../sass/style.scss */
+.title {
+  color: #606779;
+  margin: auto;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* line 128, ../sass/style.scss */
+.work-flow-container {
+  padding-top: 30px;
+}
+
+/* line 132, ../sass/style.scss */
+.work-flow {
+  width: 33%;
+  display: inline-block;
+}
+
+/* line 149, ../sass/style.scss */
+.work-flow-title {
+  color: #606779;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* line 157, ../sass/style.scss */
+.work-flow-content {
+  color: #a7aab0;
+  font-size: 18px;
+  line-height: 23px;
 }

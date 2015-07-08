@@ -3,17 +3,15 @@
 
 body {
 	font-size: 62.5%;
+	font-family: 'HelveticaNeue-Light';
 	background-color: #f4f3f1;
-}
-
-.main-container {
-	background-color: #f4f3f1;
+	text-align:center; 
 }
 
 .main-page {
-	background-image: url(../images/sunset-resized.jpg);
+	background-image: url(../images/sunset.jpg);
 	background-size: cover;
-	height: 700px;
+	height: 800px;
 }
 
 .how-it-works {
@@ -35,4 +33,78 @@ body {
 	border-top-width: 1px;
 	border-color: rgb(255,255,255);
 	border-style: solid;		
+}
+
+.login-signup {
+	float: right;	
+	margin: 25px 180px;
+}
+
+.common-btn {
+	margin: 0 10px;
+	background: none;
+	border: none;
+	font-family: 'HelveticaNeue-Light';
+  	font-weight: 500;
+  	font-size: 18px;
+  	line-height: 1.5;
+	color: white;
+}
+
+#sign-up {
+	border-radius: 0px;
+	border: solid white 1px;
+	padding: 5px 15px;
+	font-size: 16px;
+}
+
+.search-contrainer {
+	width: 600px;
+	height: 300px;
+	position: absolute; 
+	left:0; top: 50%; right:0;bottom: 50%;
+	margin: auto;
+}
+
+.search-description {
+	color: white;
+	padding-bottom: 10px;
+}
+
+#main-des {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#sub-des {
+	color: rgb(200,200,200);
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+	
+.search-feild {
+	background-color: rgba(255,255,255,.2);
+	display: inline-block;
+	width: 600px;
+	color: white;
+	border-radius: 4px;
+}
+	
+.search-placeHolder {
+	float: left;
+	font-size: 18px;
+	padding: 15px 20px;
+	height: 28px;
+	line-height: 28px;
+}
+	
+.search-button {
+	float: right;
+	background: #6cdcac;
+	border-radius: 0 4px 4px 0;
+	border: none;
+	padding: 20px 20px;
+	color: white;	
+	font-size: 16px;	
 }

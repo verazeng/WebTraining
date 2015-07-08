@@ -88,7 +88,7 @@ body {
 
 /* line 24, ../sass/style.scss */
 .why-choose-us {
-  height: 200px;
+  height: 680px;
   border-width: 1px 0 1px 0;
   border-color: white white rgba(128, 128, 128, 0.3) white;
   border-style: solid;
@@ -218,18 +218,52 @@ body {
   display: inline-block;
 }
 
-/* line 149, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
+.work-flow-image {
+  padding-bottom: 30px;
+}
+
+/* line 141, ../sass/style.scss */
 .work-flow-title {
   color: #606779;
   font-size: 22px;
   font-weight: bold;
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .work-flow-content {
   color: #a7aab0;
   font-size: 18px;
   line-height: 23px;
+}
+
+/* line 154, ../sass/style.scss */
+.reason-container {
+  display: inline-block;
+}
+
+/* line 158, ../sass/style.scss */
+.reason-item {
+  width: 38%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+/* line 166, ../sass/style.scss */
+.reason-image {
+  float: left;
+  clear: left;
+  width: 45px;
+  display: inline-block;
+}
+
+/* line 173, ../sass/style.scss */
+.reason-content-container {
+  text-align: left;
+  display: inline-block;
+  width: 80%;
+  padding-top: 10px;
 }

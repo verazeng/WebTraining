@@ -22,7 +22,7 @@ body {
 }
 
 .why-choose-us {
-	height: 200px;
+	height: 680px;
 	border-width: 1px 0 1px 0;
 	border-color: rgb(255,255,255) rgb(255,255,255) rgba(128, 128, 128, .3) rgb(255,255,255);
 	border-style: solid;		
@@ -134,23 +134,14 @@ body {
 	display: inline-block;
 }
 
-#compare{
-	
-}
-
-#receive-proposals {
-	
-}
-
-#sell-with-the-best {
-	
+.work-flow-image {
+	padding-bottom: 30px;
 }
 
 .work-flow-title {
 	color: #606779;
 	font-size: 22px;
 	font-weight: bold;
-	padding-top: 30px;
 	padding-bottom: 10px;
 }
 
@@ -159,3 +150,30 @@ body {
 	font-size: 18px;
 	line-height: 23px;
 }
+
+.reason-container {
+	display: inline-block;
+}
+
+.reason-item {
+	width: 38%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+}
+
+.reason-image {
+	float: left;
+	clear: left;
+	width: 45px;
+	display: inline-block;
+}
+
+.reason-content-container {
+	text-align: left;
+	display: inline-block;
+	width: 80%;
+	padding-top: 10px;
+}
+					

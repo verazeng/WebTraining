@@ -78,7 +78,13 @@ body {
   height: 750px;
 }
 
-/* line 17, ../sass/style.scss */
+/*.image-cover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100, 100, 100, .2);
+	float: left;
+}*/
+/* line 24, ../sass/style.scss */
 .how-it-works {
   border-bottom-width: 1px;
   border-color: rgba(128, 128, 128, 0.3);
@@ -86,7 +92,7 @@ body {
   padding-bottom: 70px;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .why-choose-us {
   border-width: 1px 0 1px 0;
   border-color: white white rgba(128, 128, 128, 0.3) white;
@@ -94,7 +100,7 @@ body {
   padding-bottom: 70px;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .about-us {
   height: 300px;
   border-top-width: 1px;
@@ -102,26 +108,26 @@ body {
   border-style: solid;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .bottom-search-container {
-  height: 210px;
+  height: 258px;
   background-image: url(../images/sunset.jpg);
   background-size: cover;
-  padding-bottom: 70px;
+  postion: relative;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .bottom-bar {
   padding: 30px;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .login-signup {
   float: right;
   margin: 25px 100px;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .common-btn {
   margin: 0 10px;
   background: none;
@@ -133,7 +139,7 @@ body {
   color: white;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 #sign-up {
   border-radius: 3px;
   border: solid white 1px;
@@ -141,7 +147,7 @@ body {
   font-size: 16px;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .search-contrainer {
   width: 600px;
   height: 300px;
@@ -153,33 +159,33 @@ body {
   margin: auto;
 }
 
-/* line 80, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .search-description {
   color: white;
   padding-bottom: 10px;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 #main-des {
   font-size: 24px;
   font-weight: bold;
   padding-top: 10px;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 #sub-des {
   color: #c8c8c8;
   font-size: 18px;
   padding-bottom: 30px;
 }
 
-/* line 97, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .search-feild {
   display: inline-block;
   width: 600px;
 }
 
-/* line 102, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .input-text {
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 18px;
@@ -191,7 +197,7 @@ body {
   color: white;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .search-button {
   background: #6bdbab;
   border-radius: 0 4px 4px 0;
@@ -203,7 +209,7 @@ body {
   margin-left: -3px;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .seperator {
   width: 40px;
   height: 3px;
@@ -211,7 +217,7 @@ body {
   margin: 10px auto 35px auto;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .title {
   color: #606779;
   margin: auto;
@@ -221,23 +227,23 @@ body {
   padding-top: 20px;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .work-flow-container {
   padding-top: 30px;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .work-flow {
   width: 33%;
   display: inline-block;
 }
 
-/* line 149, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .work-flow-image {
   padding-bottom: 30px;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .work-flow-title {
   color: #606779;
   font-size: 22px;
@@ -245,19 +251,19 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .work-flow-content {
   color: #a7aab0;
   font-size: 18px;
   line-height: 23px;
 }
 
-/* line 166, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .reason-container {
   display: inline-block;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .reason-item {
   width: 38%;
   display: inline-block;
@@ -266,7 +272,7 @@ body {
   padding-left: 100px;
 }
 
-/* line 178, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .reason-image {
   float: left;
   clear: left;
@@ -274,7 +280,7 @@ body {
   display: inline-block;
 }
 
-/* line 185, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .reason-content-container {
   text-align: left;
   display: inline-block;
@@ -282,52 +288,48 @@ body {
   padding-top: 10px;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .action-segment {
   display: inline-block;
   margin: auto;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 #bottom-search-feild {
   width: 1300px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 207, ../sass/style.scss */
-#bottom-search-des {
-  display: inline-block;
-}
-
-/* line 211, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 #input-second {
   width: 60%;
   background-color: white;
   color: #606779;
 }
 
-/* line 217, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 #bottom-search-des {
   font-size: 24px;
   font-weight: bold;
   padding-top: 10px;
   padding-right: 10px;
   width: 15%;
+  display: inline-block;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 #search-button-bottom {
   width: 10%;
 }
 
-/* line 229, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .action-segment {
   padding-top: 80px;
   padding-bottom: 40px;
 }
 
-/* line 234, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .action-button {
   background-color: white;
   border-width: 1px;
@@ -341,19 +343,20 @@ body {
   margin-left: -4px;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 #button-left {
   border-radius: 4px 0 0 4px;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 #button-right {
   border-radius: 0 4px 4px 0;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 #double-quarter {
   color: #a7aab0;
   font-size: 40px;
+  font-family: 'Arial';
   padding-bottom: 30px;
 }

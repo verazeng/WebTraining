@@ -296,7 +296,7 @@ body {
 
 /* line 206, ../sass/style.scss */
 #bottom-search-feild {
-  width: 1200px;
+  width: 1300px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -340,22 +340,32 @@ body {
   color: #606779;
   padding: 15px 20px;
   width: 200px;
-  margin-left: -4px;
+  margin-left: -1px;
 }
 
 /* line 249, ../sass/style.scss */
 #button-left {
   border-radius: 4px 0 0 4px;
-  background-color: #606779;
-  color: white;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #button-right {
   border-radius: 0 4px 4px 0;
 }
 
-/* line 259, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
+button.action-button:active {
+  background-color: #606779;
+  color: white;
+}
+
+/* line 262, ../sass/style.scss */
+button.action-button:hover {
+  background-color: #606779;
+  color: white;
+}
+
+/* line 267, ../sass/style.scss */
 #double-quarter {
   color: gainsboro;
   font-size: 40px;
@@ -363,18 +373,18 @@ body {
   padding-bottom: 15px;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #about-des {
   color: #606779;
   font-weight: normal;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 #about-des-sub {
   padding-bottom: 20px;
 }
 
-/* line 275, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 #thin_sep {
   width: 30px;
   height: 1px;
@@ -382,12 +392,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 282, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .avatar-container {
   padding-bottom: 100px;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .image-frame {
   display: inline-block;
   width: 140px;
@@ -398,7 +408,7 @@ body {
   padding: 20px 20px;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .avatar-image {
   width: 120px;
   height: 120px;
@@ -406,7 +416,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 303, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .cover {
   width: 100%;
   height: 100%;
@@ -414,7 +424,7 @@ body {
   margin: -100% 0;
 }
 
-/* line 310, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .links-container {
   display: inline-block;
   padding: 20px 145px;
@@ -423,39 +433,54 @@ body {
   float: left;
 }
 
-/* line 318, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .bottom-link {
   font-size: 18px;
   padding: 0 20px;
 }
 
-/* line 323, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .icon-container {
   display: inline-block;
-  padding: 10px 0px;
   height: 100%;
-  margin-left: 60px;
+  float: right;
+  clear: right;
+  padding-top: 13px;
+  padding-right: 150px;
 }
 
-/* line 330, ../sass/style.scss */
-.footer-image {
-  height: 30px;
-  padding: 0 10px;
-}
-
-/* line 335, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 a:link {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 340, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 a:visited {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 a:hover {
   color: #6bdbab;
+}
+
+/* line 354, ../sass/style.scss */
+button.footer-image-button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+/* line 362, ../sass/style.scss */
+button#first {
+  background: url(../images/tweeter.png) no-repeat;
+}
+
+/* line 366, ../sass/style.scss */
+button#second {
+  background: url(../images/facebook.png) no-repeat;
 }

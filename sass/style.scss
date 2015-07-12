@@ -204,7 +204,7 @@ body {
 }
 
 #bottom-search-feild {
-	width:1200px;	
+	width:1300px;	
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -243,17 +243,25 @@ body {
 	color: #606779;	
 	padding: 15px 20px;
 	width: 200px;
-	margin-left: -4px;
+	margin-left: -1px;
 }
 
 #button-left {
 	border-radius: 4px 0 0 4px;
-	background-color: #606779;
-	color: white;
 }
 
 #button-right {
 	border-radius:  0 4px 4px 0;
+}
+
+button.action-button:active {
+	background-color: #606779;
+    color: white;
+}
+
+button.action-button:hover {
+    background-color: #606779;
+    color: white;
 }
 
 #double-quarter {
@@ -322,14 +330,11 @@ body {
 
 .icon-container{
 	display: inline-block;
-	padding: 10px 0px;
 	height: 100%;
-	margin-left: 60px;
-}
-
-.footer-image {
-	height: 30px;
-	padding: 0 10px;
+	float: right;
+	clear: right;
+	padding-top: 13px;
+	padding-right: 150px;
 }
 
 a:link {
@@ -344,4 +349,20 @@ a:visited {
 
 a:hover {
     color: #6bdbab;
+}
+
+button.footer-image-button {
+	border:none;
+	width: 30px;
+	height: 30px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+
+button#first {
+	background:url(../images/tweeter.png) no-repeat;
+}
+
+button#second {
+	background:url(../images/facebook.png) no-repeat;
 }

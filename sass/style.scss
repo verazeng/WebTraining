@@ -324,7 +324,6 @@ button.action-button:hover {
 	display: inline-block;
 	padding: 20px 145px ;
 	height: 100%;
-	clear: left;
 	float: left;
 }
 
@@ -337,7 +336,6 @@ button.action-button:hover {
 	display: inline-block;
 	height: 100%;
 	float: right;
-	clear: right;
 	padding-top: 13px;
 	padding-right: 150px;
 }
@@ -370,4 +368,8 @@ button#first {
 
 button#second {
 	background:url(../images/facebook.png) no-repeat;
+}
+
+.clear {
+	clear: both;
 }

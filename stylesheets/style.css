@@ -434,44 +434,42 @@ button.action-button:hover {
   display: inline-block;
   padding: 20px 145px;
   height: 100%;
-  clear: left;
   float: left;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .bottom-link {
   font-size: 18px;
   padding: 0 20px;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .icon-container {
   display: inline-block;
   height: 100%;
   float: right;
-  clear: right;
   padding-top: 13px;
   padding-right: 150px;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 a:link {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 350, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 a:visited {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 355, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 a:hover {
   color: #6bdbab;
 }
 
-/* line 359, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 button.footer-image-button {
   border: none;
   width: 30px;
@@ -480,12 +478,17 @@ button.footer-image-button {
   margin-left: 10px;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 button#first {
   background: url(../images/tweeter.png) no-repeat;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 button#second {
   background: url(../images/facebook.png) no-repeat;
+}
+
+/* line 373, ../sass/style.scss */
+.clear {
+  clear: both;
 }

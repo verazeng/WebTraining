@@ -299,6 +299,7 @@ button.action-button:hover {
 	border-width: 3px;
 	border-color: #606779;
 	padding: 20px 20px;
+	position: relative;
 }
 
 .avatar-image {
@@ -311,8 +312,12 @@ button.action-button:hover {
 .cover {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(240, 240, 40, 0.8);
-	margin: -100% 0;
+	background-color: rgba(244, 244, 244, 0.7);
+	border-radius: 70px;
+	position:absolute;
+  	left:0px;
+  	top:0px;
+  	z-index:1;
 }
 
 .links-container{

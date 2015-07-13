@@ -406,9 +406,10 @@ button.action-button:hover {
   border-width: 3px;
   border-color: #606779;
   padding: 20px 20px;
+  position: relative;
 }
 
-/* line 304, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .avatar-image {
   width: 120px;
   height: 120px;
@@ -416,15 +417,19 @@ button.action-button:hover {
   margin-top: 10px;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 .cover {
   width: 100%;
   height: 100%;
-  background-color: rgba(240, 240, 40, 0.8);
-  margin: -100% 0;
+  background-color: rgba(244, 244, 244, 0.7);
+  border-radius: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
 
-/* line 318, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .links-container {
   display: inline-block;
   padding: 20px 145px;
@@ -433,13 +438,13 @@ button.action-button:hover {
   float: left;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .bottom-link {
   font-size: 18px;
   padding: 0 20px;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .icon-container {
   display: inline-block;
   height: 100%;
@@ -449,24 +454,24 @@ button.action-button:hover {
   padding-right: 150px;
 }
 
-/* line 340, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 a:link {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 a:visited {
   color: #a0a0b0;
   text-decoration: none;
 }
 
-/* line 350, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 a:hover {
   color: #6bdbab;
 }
 
-/* line 354, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 button.footer-image-button {
   border: none;
   width: 30px;
@@ -475,12 +480,12 @@ button.footer-image-button {
   margin-left: 10px;
 }
 
-/* line 362, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 button#first {
   background: url(../images/tweeter.png) no-repeat;
 }
 
-/* line 366, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 button#second {
   background: url(../images/facebook.png) no-repeat;
 }
